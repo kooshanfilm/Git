@@ -1,0 +1,24 @@
+Start :
+
+	git init:
+		initializing the git
+
+	ls -la .git/
+
+	git add .
+	git commit -m "my first commit"
+
+	git log >> gives you all the commeits
+		git log -n1
+		git log --since 11-12-2012
+
+	Note:
+		git add file.txt >> will add to stating index
+		git commit file.txt >> will add to repo
+	GitHub uses SHA-1
+
+
+
+
+
+
