@@ -17,6 +17,11 @@ Github:
 		git commit file.txt >> will add to repo
 	GitHub uses SHA-1
 
+	git diff:
+		will see the diff of a new changed files
+
+	git diff --staged :
+		will see the diff of staging
 
 
 
