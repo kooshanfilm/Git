@@ -41,7 +41,10 @@ Github:
 	how to undo:
 		git checkout -- file_name.txt
 
-	how to
+	how to undo from staging index:
+		git reset -- head file_name
+
+
 
 
 
