@@ -47,6 +47,12 @@ Github:
 	how to relece and fixing file:
 		git commit --amend -m "amendign file"
 
+	revert to specific commit:
+		git checkout b99ee06436c88abd6c8 -- file_name.txt
+
+	How to unstage a commit:
+		git reset head file_name.txt
+
 
 
 
