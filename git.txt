@@ -33,6 +33,15 @@ Github:
 		git rm t2.txt
 		git status:
 			renamed:    t2.txt -> t3.txt
+	how to commit directly to git:
+		git commit -a
+		and with message:
+			git commit -am "email"
+
+	how to undo:
+		git checkout -- file_name.txt
+
+	how to
 
 
 
