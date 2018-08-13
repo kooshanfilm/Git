@@ -44,7 +44,8 @@ Github:
 	how to undo from staging index:
 		git reset -- head file_name
 
-
+	how to relece and fixing file:
+		git commit --amend -m "amendign file"
 
 
 
