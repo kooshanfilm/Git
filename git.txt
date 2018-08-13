@@ -23,6 +23,18 @@ Github:
 	git diff --staged :
 		will see the diff of staging
 
+	how to rename and handle changes is git:
+		we have t2.txt
+		rename t2.txt to t3.txt
+		git status:
+			dleted t2.txt
+			new file t3.txt
+		git add t3.txt
+		git rm t2.txt
+		git status:
+			renamed:    t2.txt -> t3.txt
+
+
 
 
 
