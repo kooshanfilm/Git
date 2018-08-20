@@ -53,6 +53,30 @@ Github:
 	How to unstage a commit:
 		git reset head file_name.txt
 
+	soft reset:
+		git reset -- soft commit <<
+			soft reast will put back the change into
+			the staging enviroment
+
+	mixed reset:
+		git reset --mixed commit_number
+			will put back the changes into
+			working enviromet
+
+	Hard:
+		any change will be same as the repo
+		any change will be destoryed
+	Soft:
+		any change will go back to staging
+	Mixed:
+		any change will go back to working
+
+	how to get ride of unsed files:
+		git clean:
+			git clean -n >>
+
+
+
 
 
 
