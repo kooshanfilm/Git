@@ -71,9 +71,34 @@ Github:
 	Mixed:
 		any change will go back to working
 
-	how to get ride of unsed files:
+	how to get ride of unsed files: remember you should add a new files
 		git clean:
-			git clean -n >>
+			git clean -i
+				remember if its staging directory nothing will change
+
+	how to ignore certain files:
+		nano sudo .gitignore
+			will create a .gitigone file and then iside of the file
+			you will go and add your original file
+			example:
+			cd desktop\test\nano .gitigonore
+			nano test.txt
+			nano .gitigonre
+				test.txt
+
+	but if you already commite the file and
+	starting now you don't want this to be tracked:
+		git rm --cashed temp2.txt
+
+	git log:
+		git log --oneline
+		git log --author ='sam'
+		git log --graph
+
+	looking at one commit changes:
+		git show commit
+
+
 
 
 
