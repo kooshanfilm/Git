@@ -98,11 +98,7 @@ Github:
 	looking at one commit changes:
 		git show commit
 
-
-
-
-
-
+	------new branch-------
 
 
 
