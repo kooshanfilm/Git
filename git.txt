@@ -110,6 +110,12 @@ Github:
 	how to remove a branch:
 		git branch -d branch_to_delete
 
+	how to meger two branches:
+		git merege master old_feature
+
+	how to aborte a merge
+		git merege	--abort
+
 
 
 
