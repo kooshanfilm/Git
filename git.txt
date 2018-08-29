@@ -98,6 +98,17 @@ Github:
 	looking at one commit changes:
 		git show commit
 
+	stash:
+
+
+	git diff:
+		git diff file1..file2
+
+	change the branch name:
+		git branch -m branch_name to new_branch_name
+
+	how to remove a branch:
+		git branch -d branch_to_delete
 
 
 
