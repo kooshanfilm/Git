@@ -111,7 +111,7 @@ Github:
 		git branch -d branch_to_delete
 
 	how to meger two branches:
-		git merege master old_feature
+		git merege master old_feature1
 
 	how to aborte a merge
 		git merege	--abort
