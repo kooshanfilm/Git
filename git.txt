@@ -117,10 +117,17 @@ Github:
 		git merege	--abort
 
 	stash:
-		git stash save
+		git stash save "message"
 		git stash show list
 		git stash show -p
 		git stash apply >stash number<
+
+	how to delete the whole stash list
+		git stash drop >stash number<
+		git stash clear
+
+
+
 
 
 
