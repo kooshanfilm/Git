@@ -116,6 +116,11 @@ Github:
 	how to aborte a merge
 		git merege	--abort
 
+	stash:
+		git stash save
+		git stash show list
+		git stash show -p
+		git stash apply >stash number<
 
 
 
