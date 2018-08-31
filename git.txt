@@ -62,7 +62,6 @@ Github:
 		git reset --mixed commit_number
 			will put back the changes into
 			working enviromet
-
 	Hard:
 		any change will be same as the repo
 		any change will be destoryed
@@ -99,7 +98,7 @@ Github:
 		git show commit
 
 	stash:
-
+		TBD
 
 	git diff:
 		git diff file1..file2
@@ -126,6 +125,8 @@ Github:
 		git stash drop >stash number<
 		git stash clear
 
+	to learn more about your git repo:
+		cat .git/config
 
 
 
