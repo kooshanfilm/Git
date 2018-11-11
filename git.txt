@@ -52,6 +52,7 @@ Github:
 
 	How to unstage a commit:
 		git reset head file_name.txt
+			if you staged your file and you want to unstage it then you should use this
 
 	soft reset:
 		git reset -- soft commit <<
@@ -127,6 +128,15 @@ Github:
 
 	to learn more about your git repo:
 		cat .git/config
+
+	how you track your branch:
+		git push --set-upstream origin old_feature
+
+	blame or findout who changed what:
+		git blame:
+			git blame fine_name -L << line name
+
+
 
 
 
